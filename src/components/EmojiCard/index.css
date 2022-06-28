@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+.each-emoji-card {
+  align-self: center;
+}
+.emoji-button {
+  border-radius: 10px;
+  border: none;
+  background-color: #9796f0;
+  cursor: pointer;
+  outline: none;
+}
+.emoji-image {
+  padding: 10px;
+}

@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+.emojiGame-page-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.responsive-page-container {
+  margin: 20px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .responsive-page-container {
+    max-width: 990px;
+    align-self: center;
+    box-shadow: 5px 5px #505050;
+    border-radius: 20px;
+  }
+}
+.allEmojisCardList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-result-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #6a59ff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-height: 60vh;
+}
